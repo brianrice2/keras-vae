@@ -115,6 +115,7 @@ def plot_results(models,
 
 
 # helper function for command line parsing
+# https://stackoverflow.com/questions/15008758/parsing-boolean-values-with-argparse
 def str2bool(v):
     if isinstance(v, bool):
         return v
